@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS Account(
 );
 
 LOAD DATA LOCAL
-INFILE '~/Documents/DataScience/WeCloudData/sql_ml_quiz/data/account.asc'
+INFILE '~/Documents/DataScience/ds_projects/loan_default_prediction/data/account.asc'
 INTO TABLE Account
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS Client(
 );
 
 LOAD DATA LOCAL
-INFILE '~/Documents/DataScience/WeCloudData/sql_ml_quiz/data/client.asc'
+INFILE '~/Documents/DataScience/ds_projects/loan_default_prediction/data/client.asc'
 INTO TABLE Client
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS Disposition(
 );
 
 LOAD DATA LOCAL
-INFILE '~/Documents/DataScience/WeCloudData/sql_ml_quiz/data/disp.asc'
+INFILE '~/Documents/DataScience/ds_projects/loan_default_prediction/data/disp.asc'
 INTO TABLE Disposition
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS `Order`(
 );
 
 LOAD DATA LOCAL
-INFILE '~/Documents/DataScience/WeCloudData/sql_ml_quiz/data/order.asc'
+INFILE '~/Documents/DataScience/ds_projects/loan_default_prediction/data/order.asc'
 INTO TABLE `Order`
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS Trans(
 );
 
 LOAD DATA LOCAL
-INFILE '~/Documents/DataScience/WeCloudData/sql_ml_quiz/data/trans.asc'
+INFILE '~/Documents/DataScience/ds_projects/loan_default_prediction/data/trans.asc'
 INTO TABLE Trans
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
@@ -116,7 +116,7 @@ CREATE TABLE IF NOT EXISTS Loan(
 );
 
 LOAD DATA LOCAL
-INFILE '~/Documents/DataScience/WeCloudData/sql_ml_quiz/data/loan.asc'
+INFILE '~/Documents/DataScience/ds_projects/loan_default_prediction/data/loan.asc'
 INTO TABLE Loan
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
@@ -133,7 +133,7 @@ CREATE TABLE IF NOT EXISTS Card(
 );
 
 LOAD DATA LOCAL
-INFILE '~/Documents/DataScience/WeCloudData/sql_ml_quiz/data/card.asc'
+INFILE '~/Documents/DataScience/ds_projects/loan_default_prediction/data/card.asc'
 INTO TABLE Card
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
@@ -166,7 +166,7 @@ CREATE TABLE IF NOT EXISTS District(
 );
 
 LOAD DATA LOCAL
-INFILE '~/Documents/DataScience/WeCloudData/sql_ml_quiz/data/district.asc'
+INFILE '~/Documents/DataScience/ds_projects/loan_default_prediction/data/district.asc'
 INTO TABLE District
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
