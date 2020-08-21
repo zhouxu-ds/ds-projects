@@ -7,7 +7,7 @@ Here are the links to the relevant resources:
 - [My full post on Medium about this project](https://medium.com/@zhouxu_ds/loan-default-prediction-an-end-to-end-ml-project-with-real-bank-data-part-1-1405f7aecb9e)
 
 - [Description of the Berka dataset](https://github.com/zhouxu-ds/ds-projects/blob/master/loan_default_prediction/data/data_description.pdf)
-- [SQL query to insure the data into MySQL database](https://github.com/zhouxu-ds/ds-projects/blob/master/loan_default_prediction/import_data.sql)
+- [SQL query to import the data into MySQL database](https://github.com/zhouxu-ds/ds-projects/blob/master/loan_default_prediction/import_data.sql)
 
 There are two notebooks in this project:
 
