@@ -1,4 +1,4 @@
-# Pattern Recognition with Air Quality Sensor Data
+# Time Series Pattern Recognition with Air Quality Sensor Data
 
 
 
